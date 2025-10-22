@@ -1,0 +1,40 @@
+/* Seletor que estiliza o elemento <body> inteiro da página. */
+body {
+    /* Define a família de fontes prioritária para o texto da página.
+       Arial é usada quando disponível; se não, usa uma fonte sans-serif genérica. */
+    font-family: Arial, sans-serif;
+    /* Limita a largura máxima do conteúdo a 720 pixels para melhorar leitura em telas grandes. */
+    max-width: 720px;
+    /* Centraliza o conteúdo horizontalmente (margin auto) e aplica margem vertical de 40px.
+       Resultado: bloco centralizado com espaçamento superior e inferior. */
+    margin: 40px auto;
+    /* Espaçamento interno horizontal: 16px nas laterais para que o conteúdo não encoste nas bordas. */
+    padding: 0 16px;
+}
+
+/* Seletor que estiliza a área onde a resposta será exibida (elemento com id="resp"). */
+#resp {
+    /* white-space: pre-wrap preserva quebras de linha do texto retornado
+       e permite quebra automática de linhas quando o conteúdo excede a largura.
+       Útil quando o texto pode conter quebras manuais (\n). */
+    white-space: pre-wrap;
+    /* Cor de fundo levemente cinza para destacar a caixa de resposta do restante da página. */
+    background: #f7f7f7;
+    /* Espaçamento interno da caixa: 16px em todos os lados para criar área de leitura confortável. */
+    padding: 16px;
+    /* Bordas arredondadas com raio de 6px para aparência mais suave. */
+    border-radius: 6px;
+    /* Borda fina e clara para definir limite visual da caixa. */
+    border: 1px solid #e0e0e0;
+    /* Espaço superior (margem) de 12px para separar a caixa do elemento acima (por exemplo o botão). */
+    margin-top: 12px;
+}
+
+/* Estilização padrão para elementos <button> na página. */
+button {
+    /* Espaçamento interno vertical e horizontal do botão para torná-lo clicável confortavelmente. */
+    padding: 8px 14px;
+    /* Tamanho da fonte do texto do botão para boa legibilidade. */
+    font-size: 16px;
+}
+
