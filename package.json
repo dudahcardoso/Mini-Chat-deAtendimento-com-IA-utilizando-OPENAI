@@ -1,0 +1,26 @@
+{
+  "name": "mini-chat-deatendimento-com-ia-utilizando-openai",
+  "version": "1.0.0",
+  "description": "Descrição\r ---------\r Pequeno servidor Node que serve uma página estática e expõe a rota `/answer` que consulta a API do OpenAI e retorna a resposta gerada.",
+  "main": "example.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "type": "module"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dudahcardoso/Mini-Chat-deAtendimento-com-IA-utilizando-OPENAI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dudahcardoso/Mini-Chat-deAtendimento-com-IA-utilizando-OPENAI/issues"
+  },
+  "homepage": "https://github.com/dudahcardoso/Mini-Chat-deAtendimento-com-IA-utilizando-OPENAI#readme",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "node-fetch": "^3.3.2",
+    "openai": "^6.6.0"
+  }
+}
