@@ -1,0 +1,1 @@
+# Mini-Chat-deAtendimento-com-IA-utilizando-OPENAI
